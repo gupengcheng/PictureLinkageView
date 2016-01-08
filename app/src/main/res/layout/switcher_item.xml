@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="130dp"
+    android:layout_height="80dp"
+    android:background="#686868">
+
+    <ImageView
+        android:id="@+id/switcher_image"
+        android:layout_width="65dp"
+        android:layout_height="80dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/switcher_image_bg"
+        tools:showIn="@layout/activity_wallpaper_detail" />
+
+</RelativeLayout>
