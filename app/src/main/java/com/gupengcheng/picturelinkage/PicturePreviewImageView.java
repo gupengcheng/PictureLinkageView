@@ -9,21 +9,21 @@ import android.widget.ImageView;
 /**
  * Created by pcgu on 16-1-8.
  */
-public class LinkageImageView extends ImageView {
-    public LinkageImageView(Context context) {
+public class PicturePreviewImageView extends ImageView {
+    public PicturePreviewImageView(Context context) {
         super(context);
     }
 
-    public LinkageImageView(Context context, AttributeSet attrs) {
+    public PicturePreviewImageView(Context context, AttributeSet attrs) {
         super(context, attrs);
     }
 
-    public LinkageImageView(Context context, AttributeSet attrs, int defStyleAttr) {
+    public PicturePreviewImageView(Context context, AttributeSet attrs, int defStyleAttr) {
         super(context, attrs, defStyleAttr);
     }
 
     @TargetApi(Build.VERSION_CODES.LOLLIPOP)
-    public LinkageImageView(Context context, AttributeSet attrs, int defStyleAttr, int defStyleRes) {
+    public PicturePreviewImageView(Context context, AttributeSet attrs, int defStyleAttr, int defStyleRes) {
         super(context, attrs, defStyleAttr, defStyleRes);
     }
 }
